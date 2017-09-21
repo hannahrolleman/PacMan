@@ -184,7 +184,7 @@ namespace PacMan
             Thread.Sleep(300);
             formGraphics.Clear(Color.Black);
 
-            drawPen.Color = Color.Blue;
+            drawPen.Color = Color.Blue;//
             formGraphics.DrawLine(drawPen, 0, 20, 250, 20);
             formGraphics.DrawLine(drawPen, 0, 70, 200, 70);
             formGraphics.DrawLine(drawPen, 200, 70, 200, 300);
